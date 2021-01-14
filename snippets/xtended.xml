@@ -15,10 +15,6 @@
           fetch="https://gitlab.com/project-xtended"
           revision="refs/heads/xr" />
 
-  <remote name="hentai"
-           fetch="https://github.com/hentaiOS"
-           revision="refs/heads/Rika" />
-
   <remote  name="xtended-devices"
            fetch="https://github.com/Xtended-Devices"
            revision="refs/heads/xr" />
@@ -75,8 +71,8 @@
   <project path="vendor/xtended" name="vendor_xtended" remote="xtended" />
 
   <!-- CAF Hals -->
-  <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" groups="pdk" remote="hentai" />
-  <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" groups="pdk" remote="hentai" />
+  <project path="hardware/qcom/sm8150/display" name="hentaiOS/platform_hardware_qcom_sm8150_display" groups="pdk" remote="github" revision="Rika" />
+  <project path="hardware/qcom/sm8150/media" name="hentaiOS/platform_hardware_qcom_sm8150_media" groups="pdk" remote="github" revision="Rika" />
 
   <!-- Hardware repos -->
   <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="xtended" />
@@ -94,6 +90,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xtended" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xtended" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="xtended" />
+  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="rvc" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="xtended" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="xtended" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xtended" />
